@@ -38,15 +38,16 @@
 		53D00A41217886F900A3F106 /* CustomInteractive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D00A40217886F900A3F106 /* CustomInteractive.swift */; };
 		53D03D7F218AF207001817B2 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D03D7E218AF207001817B2 /* Session.swift */; };
 		8DC69DA53CED6913F6C86B52 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19DA20B0A9DD24E276A2ED0 /* Pods_WeatherApp.framework */; };
-		9A38125721AE7ADF007FB8EB /* PhotoRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38125621AE7ADF007FB8EB /* PhotoRealm.swift */; };
 		9A38125921AE7CAF007FB8EB /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38125821AE7CAF007FB8EB /* PhotoService.swift */; };
 		9A71E6E321A487E1009B7FCE /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A71E6E221A487E1009B7FCE /* UserService.swift */; };
-		9A71E6E521A49725009B7FCE /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A71E6E421A49725009B7FCE /* DatabaseService.swift */; };
 		9A71E6E721A49804009B7FCE /* UserRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A71E6E621A49804009B7FCE /* UserRealm.swift */; };
 		9A71E6E921A4981F009B7FCE /* FriendsRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A71E6E821A4981F009B7FCE /* FriendsRealm.swift */; };
 		9A71E6EB21A4A1A6009B7FCE /* GroupRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A71E6EA21A4A1A6009B7FCE /* GroupRealm.swift */; };
 		9A71E6EE21A4A919009B7FCE /* GroupPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A71E6ED21A4A919009B7FCE /* GroupPost.swift */; };
 		9AAC507B21EDCE9D00B2F009 /* GroupPost_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC507A21EDCE9D00B2F009 /* GroupPost_ViewController.swift */; };
+		9AAC507D21EDFF2300B2F009 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAC507C21EDFF2300B2F009 /* Default-568h@2x.png */; };
+		9AAC507F21EDFFBE00B2F009 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC507E21EDFFBE00B2F009 /* DatabaseService.swift */; };
+		9AAC508121EDFFDB00B2F009 /* PhotoRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC508021EDFFDA00B2F009 /* PhotoRealm.swift */; };
 		9AB60BCD21E2B2D000BBE262 /* NewsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB60BCC21E2B2D000BBE262 /* NewsClass.swift */; };
 		9AB60BCF21E3E65F00BBE262 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB60BCE21E3E65F00BBE262 /* NewsService.swift */; };
 		9AC3A5B121B2738C002C70F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AC3A5B021B2738C002C70F4 /* GoogleService-Info.plist */; };
@@ -57,7 +58,7 @@
 
 /* Begin PBXFileReference section */
 		0333A217ED3B7273BE0162D8 /* Pods-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp/Pods-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5314A9942153674D00791615 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5314A9942153674D00791615 /* VkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5314A9972153674D00791615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5314A9992153674D00791615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5314A99C2153674D00791615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,15 +90,16 @@
 		53D00A3E2178832B00A3F106 /* CustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimator.swift; sourceTree = "<group>"; };
 		53D00A40217886F900A3F106 /* CustomInteractive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInteractive.swift; sourceTree = "<group>"; };
 		53D03D7E218AF207001817B2 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		9A38125621AE7ADF007FB8EB /* PhotoRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoRealm.swift; path = WeatherApp/RealmClass/PhotoRealm.swift; sourceTree = SOURCE_ROOT; };
 		9A38125821AE7CAF007FB8EB /* PhotoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
 		9A71E6E221A487E1009B7FCE /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		9A71E6E421A49725009B7FCE /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatabaseService.swift; path = WeatherApp/Services/DatabaseService.swift; sourceTree = SOURCE_ROOT; };
 		9A71E6E621A49804009B7FCE /* UserRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRealm.swift; sourceTree = "<group>"; };
 		9A71E6E821A4981F009B7FCE /* FriendsRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsRealm.swift; sourceTree = "<group>"; };
 		9A71E6EA21A4A1A6009B7FCE /* GroupRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRealm.swift; sourceTree = "<group>"; };
 		9A71E6ED21A4A919009B7FCE /* GroupPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPost.swift; sourceTree = "<group>"; };
 		9AAC507A21EDCE9D00B2F009 /* GroupPost_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupPost_ViewController.swift; sourceTree = "<group>"; };
+		9AAC507C21EDFF2300B2F009 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9AAC507E21EDFFBE00B2F009 /* DatabaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		9AAC508021EDFFDA00B2F009 /* PhotoRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoRealm.swift; sourceTree = "<group>"; };
 		9AB60BCC21E2B2D000BBE262 /* NewsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsClass.swift; sourceTree = "<group>"; };
 		9AB60BCE21E3E65F00BBE262 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
 		9AC3A5B021B2738C002C70F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -140,7 +142,8 @@
 		5314A98B2153674D00791615 = {
 			isa = PBXGroup;
 			children = (
-				5314A9962153674D00791615 /* WeatherApp */,
+				9AAC507C21EDFF2300B2F009 /* Default-568h@2x.png */,
+				5314A9962153674D00791615 /* VkApp */,
 				5314A9952153674D00791615 /* Products */,
 				47C77DA4D5FFE7D28F4DABA0 /* Pods */,
 				2A54C2CF5132DF589F8B748E /* Frameworks */,
@@ -150,12 +153,12 @@
 		5314A9952153674D00791615 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5314A9942153674D00791615 /* WeatherApp.app */,
+				5314A9942153674D00791615 /* VkApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5314A9962153674D00791615 /* WeatherApp */ = {
+		5314A9962153674D00791615 /* VkApp */ = {
 			isa = PBXGroup;
 			children = (
 				53D03D7D218AF1E1001817B2 /* CollectionView */,
@@ -174,7 +177,7 @@
 				5314A9A32153674F00791615 /* Info.plist */,
 				9AC3A5B021B2738C002C70F4 /* GoogleService-Info.plist */,
 			);
-			path = WeatherApp;
+			path = VkApp;
 			sourceTree = "<group>";
 		};
 		5315D55E2195AC1F00802ED3 /* Class */ = {
@@ -242,8 +245,8 @@
 			children = (
 				9A71E6E221A487E1009B7FCE /* UserService.swift */,
 				5315D5652195C14A00802ED3 /* GroupService.swift */,
+				9AAC507E21EDFFBE00B2F009 /* DatabaseService.swift */,
 				9A38125821AE7CAF007FB8EB /* PhotoService.swift */,
-				9A71E6E421A49725009B7FCE /* DatabaseService.swift */,
 				5315D5672195C15400802ED3 /* FriendService.swift */,
 				9AB60BCE21E3E65F00BBE262 /* NewsService.swift */,
 			);
@@ -253,7 +256,7 @@
 		9A71E6EC21A4A43F009B7FCE /* RealmClass */ = {
 			isa = PBXGroup;
 			children = (
-				9A38125621AE7ADF007FB8EB /* PhotoRealm.swift */,
+				9AAC508021EDFFDA00B2F009 /* PhotoRealm.swift */,
 				9A71E6E621A49804009B7FCE /* UserRealm.swift */,
 				9A71E6E821A4981F009B7FCE /* FriendsRealm.swift */,
 				9A71E6EA21A4A1A6009B7FCE /* GroupRealm.swift */,
@@ -292,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5314A9932153674D00791615 /* WeatherApp */ = {
+		5314A9932153674D00791615 /* VkApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5314A9A62153674F00791615 /* Build configuration list for PBXNativeTarget "WeatherApp" */;
+			buildConfigurationList = 5314A9A62153674F00791615 /* Build configuration list for PBXNativeTarget "VkApp" */;
 			buildPhases = (
 				332709947CD74F680F8BF180 /* [CP] Check Pods Manifest.lock */,
 				5314A9902153674D00791615 /* Sources */,
@@ -306,9 +309,9 @@
 			);
 			dependencies = (
 			);
-			name = WeatherApp;
+			name = VkApp;
 			productName = WeatherApp;
-			productReference = 5314A9942153674D00791615 /* WeatherApp.app */;
+			productReference = 5314A9942153674D00791615 /* VkApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -326,7 +329,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5314A98F2153674D00791615 /* Build configuration list for PBXProject "WeatherApp" */;
+			buildConfigurationList = 5314A98F2153674D00791615 /* Build configuration list for PBXProject "VkApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -339,7 +342,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5314A9932153674D00791615 /* WeatherApp */,
+				5314A9932153674D00791615 /* VkApp */,
 			);
 		};
 /* End PBXProject section */
@@ -352,6 +355,7 @@
 				5314A9A22153674F00791615 /* LaunchScreen.storyboard in Resources */,
 				9AC3A5B121B2738C002C70F4 /* GoogleService-Info.plist in Resources */,
 				5314A99F2153674F00791615 /* Assets.xcassets in Resources */,
+				9AAC507D21EDFF2300B2F009 /* Default-568h@2x.png in Resources */,
 				5314A99D2153674D00791615 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,11 +429,9 @@
 				531E9CB9216222AC000C5E5E /* LIkeControl.swift in Sources */,
 				5314A99A2153674D00791615 /* ViewController.swift in Sources */,
 				53245A26216B4E6C00BEDB12 /* News_TableViewController.swift in Sources */,
-				9A71E6E521A49725009B7FCE /* DatabaseService.swift in Sources */,
 				9AB60BCD21E2B2D000BBE262 /* NewsClass.swift in Sources */,
 				5315D5622195B73B00802ED3 /* FriendClass.swift in Sources */,
 				9A71E6E921A4981F009B7FCE /* FriendsRealm.swift in Sources */,
-				9A38125721AE7ADF007FB8EB /* PhotoRealm.swift in Sources */,
 				531E9CBB21623E6A000C5E5E /* AlphaviteFirendPicker.swift in Sources */,
 				5315D55B2195A8A900802ED3 /* Vk_Api_ViewController.swift in Sources */,
 				53D00A3D217882E700A3F106 /* CustomNav_Contr.swift in Sources */,
@@ -453,7 +455,9 @@
 				9AAC507B21EDCE9D00B2F009 /* GroupPost_ViewController.swift in Sources */,
 				534E577B2158CA4600957BD5 /* Friends_TableViewController.swift in Sources */,
 				538CD80F2174864A00134CAD /* SlideShowImages.swift in Sources */,
+				9AAC508121EDFFDB00B2F009 /* PhotoRealm.swift in Sources */,
 				538CD813217501FD00134CAD /* Slider_CollectionViewController.swift in Sources */,
+				9AAC507F21EDFFBE00B2F009 /* DatabaseService.swift in Sources */,
 				534E577F2158CFAE00957BD5 /* Weather_class_cell.swift in Sources */,
 				9AC3A5B521B278C4002C70F4 /* Alerts.swift in Sources */,
 				5315D55D2195AC1600802ED3 /* UserClass.swift in Sources */,
@@ -607,7 +611,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 623JYZ98ZP;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VkApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -626,7 +630,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 623JYZ98ZP;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VkApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -641,7 +645,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5314A98F2153674D00791615 /* Build configuration list for PBXProject "WeatherApp" */ = {
+		5314A98F2153674D00791615 /* Build configuration list for PBXProject "VkApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5314A9A42153674F00791615 /* Debug */,
@@ -650,7 +654,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5314A9A62153674F00791615 /* Build configuration list for PBXNativeTarget "WeatherApp" */ = {
+		5314A9A62153674F00791615 /* Build configuration list for PBXNativeTarget "VkApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5314A9A72153674F00791615 /* Debug */,
